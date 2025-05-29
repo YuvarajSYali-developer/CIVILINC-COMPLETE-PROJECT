@@ -1,0 +1,41 @@
+{
+  "name": "civilinc",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "@lottiefiles/vue-lottie-player": "1.0.4",
+    "axios": "^1.9.0",
+    "chart.js": "^3.9.1",
+    "dangerous-html": "0.1.13",
+    "leaflet": "^1.9.4",
+    "next": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "socket.io-client": "^4.8.1",
+    "vue": "^2.6.7",
+    "vue-meta": "^2.2.1",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/babel-preset-app": "^5.0.8",
+    "@vue/cli-plugin-babel": "^5.0.4",
+    "@vue/cli-service": "^5.0.8",
+    "vue-template-compiler": "^2.6.7"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
